@@ -1,0 +1,3 @@
+Fadhil,5,16.67 
+Sekar,7,23.33 
+Ningrum,8,26.67 
