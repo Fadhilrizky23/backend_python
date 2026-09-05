@@ -17,7 +17,10 @@ if __name__ == "__main__" :
     print(f"Hasil dari 10 * 23 = {hasil2}") 
     print(f"Nilai Pi = {matematik.pi}")
     print(f"Hasil dari 10 * 23 = {hasil2}")
-    print(f"Dibuat oleh {matematik.nama_pembuat}")
+    print(f"Dibuat oleh {matematik.nama_pembuat}") 
+
+
+
 
 
 

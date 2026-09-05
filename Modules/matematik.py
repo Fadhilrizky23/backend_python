@@ -13,7 +13,7 @@ def kurang(a,b):
 kali 2 angka 
 """
 def kali(a,b):
-    return a - b 
+    return a *b 
 
 
 def bagi(a,b):
