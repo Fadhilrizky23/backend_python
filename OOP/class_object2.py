@@ -31,7 +31,9 @@ print(andi.perkenalan())
 
 budi.name = "Budi Baru"
 print(budi.name) #hanya Object Andi yang berubah
-print(budi.nim)
+print(budi.nim) 
+
+
 
 
 
