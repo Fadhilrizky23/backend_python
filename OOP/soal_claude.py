@@ -29,15 +29,22 @@ class Mobil :
         return  self.merk == value.merk and self.harga == value.harga 
 
     def __lt__(self, other):
+        return self.harga < other.harga 
+
+    def __gt__(self, other):
         return self.harga > other.harga 
 
+    def __ge__(self, other):
+        return self.harga >= other.harga 
 
-    
+    def __le__(self, other):
+        return self.harga <= other.harga 
+
 
 
 m1 = Mobil("Toyota", 300_000_000)
 m2 = Mobil("Honda", 350_000_000)
 
-print(m1 > m2) #true 
-# print(m1 >= m2 ) # perlu pake fungsi lain  
-print (m1 == Mobil("Toyota", 300_000_000)) #True
+print(m1 < m2)    # True
+print(m1 >= m2)   # False
+print(m1 == Mobil("Toyota", 300_000_000))  # True 
